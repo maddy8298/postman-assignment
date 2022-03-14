@@ -1,0 +1,1 @@
+please note:I have shared the test reports for e-commerce disabling functions like signup,update and delete just for the data driven excel sheet report.

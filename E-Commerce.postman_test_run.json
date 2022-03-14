@@ -1,0 +1,195 @@
+{
+	"id": "82ec2e80-dafd-482c-b201-c2b1a807120a",
+	"name": "E-Commerce",
+	"timestamp": "2022-03-14T15:47:43.112Z",
+	"collection_id": "19354141-f23c754f-bddf-4ca5-b75e-dec8fcb59b31",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 20,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "9208de1d-d2b3-44c4-a966-165d0d8ee68d",
+			"name": "Login",
+			"time": 3404,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"expiresIn": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				},
+				"expiresIn": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				3552,
+				3297,
+				3230,
+				3404
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"expiresIn": true
+				},
+				{
+					"Status code is 200": true,
+					"expiresIn": true
+				},
+				{
+					"Status code is 200": true,
+					"expiresIn": true
+				},
+				{
+					"Status code is 200": true,
+					"expiresIn": true
+				}
+			]
+		},
+		{
+			"id": "949a3417-2dde-41bd-bdb2-410bb226e11f",
+			"name": "get all users",
+			"time": 1567,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				1568,
+				1563,
+				1578,
+				1567
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "cd6591d9-f328-4712-b596-f66573971f79",
+			"name": "GET ALL PRODUCTS",
+			"time": 2112,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				2076,
+				2080,
+				2039,
+				2112
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "145967d3-043e-48f6-a94b-ac92fc217917",
+			"name": "CREATE PRODUCT",
+			"time": 709,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				724,
+				704,
+				704,
+				709
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 4,
+	"totalTime": 30907,
+	"collection": {
+		"requests": [
+			{
+				"id": "9208de1d-d2b3-44c4-a966-165d0d8ee68d",
+				"method": "POST"
+			},
+			{
+				"id": "949a3417-2dde-41bd-bdb2-410bb226e11f",
+				"method": "GET"
+			},
+			{
+				"id": "cd6591d9-f328-4712-b596-f66573971f79",
+				"method": "GET"
+			},
+			{
+				"id": "145967d3-043e-48f6-a94b-ac92fc217917",
+				"method": "POST"
+			}
+		]
+	}
+}
